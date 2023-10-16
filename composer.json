@@ -34,7 +34,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Patressz\\LaravelBladeComponents\\": "src/",
+            "Patressz\\LaravelBladeComponents\\": "src/"
         }
     },
     "autoload-dev": {
