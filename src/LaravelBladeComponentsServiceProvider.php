@@ -25,3 +25,4 @@ class LaravelBladeComponentsServiceProvider extends PackageServiceProvider
     {
         Blade::componentNamespace('Patressz\\LaravelBladeComponents\\Components\\Form', config('blade-components.prefix.form'));
     }
+}
