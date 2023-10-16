@@ -2,6 +2,12 @@
 
 All notable changes to `laravel-blade-components` will be documented in this file.
 
+## 1.0.2 - 2023-10-16
+
+Change log:
+
+- Fix incorrect namespace (14d4162ba87175619ff0c5b079a6df7e10e7a079)
+
 ## 1.0.1 - 2023-10-16
 
 Change log:
