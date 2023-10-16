@@ -1,6 +1,6 @@
 <?php
 
-namespace Patressz\Components\Components\Form;
+namespace Patressz\LaravelBladeComponents\Components\Form;
 
 use Closure;
 use Illuminate\Contracts\View\View;
