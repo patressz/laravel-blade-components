@@ -21,6 +21,6 @@ class Input extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('laravel-blade-components::components.form.input');
+        return view('blade-components::components.form.input');
     }
 }
