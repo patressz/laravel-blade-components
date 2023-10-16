@@ -2,6 +2,14 @@
 
 All notable changes to `laravel-blade-components` will be documented in this file.
 
+## 1.0.1 - 2023-10-16
+
+Change log:
+
+- Fix unclosed brackets (b9646966aa8e5df6175431def2dc49edda666028)
+- Exclude `databse` from `paths` (e272b099878f7cf3a35185dd3d0fec68f7ba2665)
+- Merge branch 'main' of https://github.com/patressz/laravel-blade-components (ea5dd07154edf60198331ba12dd2f516a2c06924)
+
 ## 1.0.0 - 2023-10-16
 
 Change log:
