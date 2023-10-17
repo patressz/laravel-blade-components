@@ -27,13 +27,13 @@ php artisan vendor:publish --tag="blade-components-views"
 
 ## Usage
 
-To use the components, follow the standard Blade Component syntax. By default, all form components come with the form prefix.
+To use the components, follow the standard Blade Component syntax. By default, all form components come with the `form` prefix.
 
 Optionally, you can change the prefix of the components by publishing the configuration file and then changing the value of the `form` key to something else.
 
 ### Input Component
 
-```php
+```blade
 <x-form::input />
 ```
 
