@@ -39,7 +39,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Patressz\\LaravelBladeComponents\\Tests\\": "tests/",
+            "Patressz\\LaravelBladeComponents\\Tests\\": "tests/"
         }
     },
     "scripts": {
