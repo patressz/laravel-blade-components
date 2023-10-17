@@ -5,16 +5,6 @@
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/patressz/laravel-blade-components/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/patressz/laravel-blade-components/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/patressz/laravel-blade-components.svg?style=flat-square)](https://packagist.org/packages/patressz/laravel-blade-components)
 
-This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
-
-## Support us
-
-[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/laravel-blade-components.jpg?t=1" width="419px" />](https://spatie.be/github-ad-click/laravel-blade-components)
-
-We invest a lot of resources into creating [best in class open source packages](https://spatie.be/open-source). You can support us by [buying one of our paid products](https://spatie.be/open-source/support-us).
-
-We highly appreciate you sending us a postcard from your hometown, mentioning which of our package(s) you are using. You'll find our address on [our contact page](https://spatie.be/about-us). We publish all received postcards on [our virtual postcard wall](https://spatie.be/open-source/postcards).
-
 ## Installation
 
 You can install the package via composer:
@@ -23,37 +13,47 @@ You can install the package via composer:
 composer require patressz/laravel-blade-components
 ```
 
-You can publish and run the migrations with:
-
-```bash
-php artisan vendor:publish --tag="laravel-blade-components-migrations"
-php artisan migrate
-```
-
 You can publish the config file with:
 
 ```bash
-php artisan vendor:publish --tag="laravel-blade-components-config"
-```
-
-This is the contents of the published config file:
-
-```php
-return [
-];
+php artisan vendor:publish --tag="blade-components-config"
 ```
 
 Optionally, you can publish the views using
 
 ```bash
-php artisan vendor:publish --tag="laravel-blade-components-views"
+php artisan vendor:publish --tag="blade-components-views"
 ```
 
 ## Usage
 
+To use the components, follow the standard Blade Component syntax. By default, all form components come with the form prefix.
+
+Optionally, you can change the prefix of the components by publishing the configuration file and then changing the value of the `form` key to something else.
+
+### Input Component
+
 ```php
-$laravelBladeComponents = new Patressz\LaravelBladeComponents();
-echo $laravelBladeComponents->echoPhrase('Hello, Patressz!');
+<x-form::input />
+```
+
+Attributes:
+- **variable** (required)
+- **type** (default: `text`)
+- **label** (default: `null`)
+- **placeholder** (uses `label` if not set)
+- **value** (default: `null`)
+- **required** (default: `false`)
+- **disabled** (default: `false`)
+
+Example:
+```blade
+<x-form::input 
+    variable="username"
+    label="Username"
+    placeholder="Enter your username"
+    :required="true"
+/>
 ```
 
 ## Testing
