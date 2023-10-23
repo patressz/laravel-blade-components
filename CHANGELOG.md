@@ -2,6 +2,12 @@
 
 All notable changes to `laravel-blade-components` will be documented in this file.
 
+## 1.0.6 - 2023-10-23
+
+Change log:
+
+- Fix constructor (7a9fea9e2b57d8a68266d821d231c44580e0b23a)
+
 ## 1.0.5 - 2023-10-23
 
 Change log:
