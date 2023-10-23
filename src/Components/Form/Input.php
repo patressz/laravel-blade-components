@@ -10,7 +10,7 @@ class Input extends Component
     /**
      * Create a new component instance.
      */
-    public function __construct(public ?string $framework)
+    public function __construct(public ?string $framework = null)
     {
         $this->framework = $framework ?? config('blade-components.css_framework', 'bootstrap');
     }
