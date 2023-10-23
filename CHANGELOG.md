@@ -2,6 +2,14 @@
 
 All notable changes to `laravel-blade-components` will be documented in this file.
 
+## 1.0.5 - 2023-10-23
+
+Change log:
+
+- Add `css_framework` key to config to allow change the default style of blade components (6a6689d21c91246066050da0309979ab9b4634d8)
+- Move the `input` component to the `tailwind` subdirectory (ed44d9cfd6e9d50bb774287d182dc2ea016eca0e)
+- Add `framework` attribute to the constructor (7f4b6968cf39ca99104b60a18c7cd8724d096339)
+
 ## 1.0.4 - 2023-10-18
 
 Change log:
