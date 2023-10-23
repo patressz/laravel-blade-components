@@ -2,6 +2,12 @@
 
 All notable changes to `laravel-blade-components` will be documented in this file.
 
+## 1.0.7 - 2023-10-23
+
+Change log:
+
+- fix default constuctor parameter (a01da456a7c1201d9632e4198809dc36143e480d)
+
 ## 1.0.6 - 2023-10-23
 
 Change log:
