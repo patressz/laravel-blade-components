@@ -2,6 +2,13 @@
 
 All notable changes to `laravel-blade-components` will be documented in this file.
 
+## 1.0.4 - 2023-10-18
+
+Change log:
+
+- Update `README.md` (0226470ae5a9f25652a0426e8c8e49aaeed579b4)
+- Fix `composer.json` file (bf3211bffc524d1117db8201d3f6b950bef5556d)
+
 ## 1.0.3 - 2023-10-16
 
 Change log:
