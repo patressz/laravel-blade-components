@@ -26,5 +26,5 @@ return [
     |
     */
 
-    'css_framework' => 'bootstrap',
+    'css_framework' => 'tailwind',
 ];
