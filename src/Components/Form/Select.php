@@ -5,7 +5,7 @@ namespace Patressz\LaravelBladeComponents\Components\Form;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class Input extends Component
+class Select extends Component
 {
     /**
      * Create a new component instance.
@@ -20,6 +20,6 @@ class Input extends Component
      */
     public function render(): View
     {
-        return view("blade-components::components.{$this->framework}.form.input");
+        return view("blade-components::components.{$this->framework}.form.select");
     }
 }
