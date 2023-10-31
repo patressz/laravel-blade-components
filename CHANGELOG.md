@@ -2,6 +2,13 @@
 
 All notable changes to `laravel-blade-components` will be documented in this file.
 
+## 1.1.0 - 2023-10-31
+
+Change log:
+
+- Add components (b6c4aa4be4acf8fac77fe09b8576a78af71c7bb9)
+- Change default `css_framework` to `tailwind` (22d6f0015500807fbb04bb3c06b1fdf6fa5759dc)
+
 ## 1.0.8 - 2023-10-23
 
 Change log:
