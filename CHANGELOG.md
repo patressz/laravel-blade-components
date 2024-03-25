@@ -2,6 +2,12 @@
 
 All notable changes to `laravel-blade-components` will be documented in this file.
 
+## 1.1.2 - 2024-03-25
+
+Change log:
+
+Update `README.md` (0226470ae5a9f25652a0426e8c8e49aaeed579b4
+
 ## 1.1.1 - 2023-10-31
 
 Change log:
